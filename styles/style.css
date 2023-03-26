@@ -2,6 +2,7 @@
 @import url("../styles/banner.css");
 @import url("../styles/carrosel.css");
 @import url("../styles/footer.css");
+@import url('../styles/estoque.css');
 :root{
     --cor-cinza-claro: #F1F0F0;
     --cor-branco: #FFFFFF;

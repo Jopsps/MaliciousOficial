@@ -1,0 +1,33 @@
+.estoque{
+    background-color: var(--cor-branco);
+    text-align: center;
+}
+.estoque__titulo__texto{
+    color: var(--cor-laranja);
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 2% 0 2% 0;
+    font-family: var(--font-principal);
+    padding: 0%;
+}
+.estoque__img-1{
+    width: 100%;
+}
+.estoque__img-2{
+    width: 100%;
+}
+@media screen and (min-width: 1024px){
+    .etq{
+        display: flex;
+        justify-content: space-between;
+    }
+    .estoque{
+        padding: 2%;
+        margin: 3% 10%;
+    }
+    .estoque__titulo__texto{
+        margin: 0;
+        font-size: 3em;
+    }
+}
