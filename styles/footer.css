@@ -1,0 +1,15 @@
+.footer{
+    background-color: var(--cor-footer);
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+.imagem__footer{
+    width: 3em;
+}
+.texto__footer{
+    font-family: var(--font-principal);
+    text-decoration: none;
+    color: var(--cor-preto);
+    font-size: 1.3em;
+}

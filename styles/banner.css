@@ -1,0 +1,10 @@
+.banner{
+    background: var(--cor-banner);
+    padding: 2em 2em;
+    text-align: center;
+    color: var(--cor-branco);
+}
+.banner__texto{
+    font-family: var(--font-principal);
+    font-size: 1.225em;
+}

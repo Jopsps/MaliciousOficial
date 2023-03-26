@@ -1,0 +1,42 @@
+@import url("../styles/header.css");
+@import url("../styles/banner.css");
+@import url("../styles/carrosel.css");
+@import url("../styles/footer.css");
+:root{
+    --cor-cinza-claro: #F1F0F0;
+    --cor-branco: #FFFFFF;
+    --cor-laranja: #EB9B00;
+    --cor-preto: #1d1d1d;
+    --cor-footer: #D6D6D6;
+    --cor-banner: linear-gradient(89.21deg, #FB00C4 -19.9%, #004577 144.35%);
+
+    --font-principal: "Shadows Into Light";
+    --font-menu-hamburguer: "Montserrat";
+}
+body{
+    background-color: var(--cor-cinza-claro);
+    padding: 0;
+    margin: 0;
+}
+.whats{
+    position: fixed;
+    bottom: 2%;
+    right: 7%;
+    padding: 2em;
+    z-index: 9999;
+}
+.imagem__principal{
+    margin: 8%;
+}
+.imagem__principal-ok{
+    width: 100%;
+}
+@media screen and (min-width: 1024px){
+    .imagem__principal{
+        margin: 3% 30%;
+    }
+    .whats{
+        width: 30%;
+        left: 80%;
+    }
+    }
